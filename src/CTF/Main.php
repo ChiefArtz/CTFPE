@@ -1,20 +1,15 @@
 <?php
 namespace CTF;
 
-
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
-
 use pocketmine\Player;
 use pocketmine\Server;
-
 use pocketmine\utils\Config;
-
 use pocketmine\event\entity\EntityDamageByEntityEvent;
 use pocketmine\event\entity\EntityDamageByChildEntityEvent;
-
 use pocketmine\event\player\PlayerJoinEvent;
-
+use pocketmine\event\player\PlayerMoveEvent;
 
 class Main extends PluginBase implements Listener
 {
